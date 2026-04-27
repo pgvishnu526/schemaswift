@@ -1,0 +1,14 @@
+sqlalchemy>=2.0
+psycopg2-binary
+pydantic>=2.0
+pydantic-settings
+python-telegram-bot>=20.0
+python-dotenv
+groq>=1.0
+mcp[cli]
+
+langchain-community
+langchain-huggingface
+langchain-chroma
+chromadb
+sentence-transformers

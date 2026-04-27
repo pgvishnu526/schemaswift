@@ -1,0 +1,100 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+venv.bak/
+ENV/
+env/
+env.bak/
+myenv/
+.venv/
+
+
+# =========================
+# Environment Variables
+# =========================
+.env
+
+
+# =========================
+# Databases
+# =========================
+*.db
+*.sqlite3
+
+
+# =========================
+# Vector Stores (ChromaDB)
+# =========================
+chroma_store/
+chroma_db/
+vector_store/
+
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+
+# =========================
+# IDE Settings
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+
+# =========================
+# Testing artifacts
+# =========================
+.coverage
+htmlcov/
+.pytest_cache/
+
+
+# =========================
+# Project-specific optional ignores
+# =========================
+*.pptx
+*.mp4
+*.zip
+
+
+# Keep example env template
+!.env.example
