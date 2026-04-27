@@ -160,7 +160,7 @@ schemaswift/
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/your-repo/schemaswift.git
+    git clone [https://github.com/your-repo/schemaswift.git](https://github.com/pgvishnu526/schemaswift)
     cd schemaswift
     ```
 2.  **Create a virtual environment**:
@@ -203,7 +203,7 @@ you need some credentials and .env file should contains:
     TELEGRAM_BOT_TOKEN= telegram_bot_api_key
     GROQ_API_KEY= groq_api key
     ADMIN_EMAIL= your_personal_mail(if need create new mail - you give approval from this mail only)
-    SMTP_EMAIL= your_bot_mail (schemaswfit.bot@gmail.com - is mine gmail you need create app password from this mail id )
+    SMTP_EMAIL= your_bot_mail (schemaswfit.bot@gmail.com - is mine gmail to send the request mail and you need to create app password from this mail id )
     SMTP_PASSWORD=#your_password (need app password not gmail password)
     SMTP_SERVER=smtp.gmail.com
     SMTP_PORT=465
